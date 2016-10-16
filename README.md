@@ -3,7 +3,7 @@ Add a google map that has a marker in your wordpress posts.
 
 ShortCode [myMap]
 
-Shortcode-ul are următoarele atribute: <br>
+<b>Shortcode-ul are următoarele atribute:</b> <br>
 id - identificatorul etichetei HTML ce va afișa harta. <br>   
 width - map width in %, px, wh .. <br>
 height -map height in %,px, vh .. <br>
@@ -12,26 +12,26 @@ lng - longitude of marker <br>
 zoom - map zoom, valoarea inițială <br>
 marker - culoarea marcatorului în orice format. <br>
 
-Valorile inițiale ale atributelor:
- id = map
- width = 100%
- height = 300px
- lat = personal
- lng = personal
- zoom = 11
- marker = #fd443d (red) 
+<b>Valorile inițiale ale atributelor:</b> <br>
+ id = map <br>
+ width = 100% <br>
+ height = 300px <br>
+ lat = personal <br>
+ lng = personal <br>
+ zoom = 11 <br>
+ marker = #fd443d (red) <br>
 
-Pentru a afișa o hartă inițial este suficient să indicăm doar coordonatele marcatorului. 
- Exemplu: [myMap lat="47.039897" lng="28.808067" ]
+<b>Pentru a afișa o hartă inițial este suficient să indicăm doar coordonatele marcatorului. </b>
+ Exemplu: <code>[myMap lat="47.039897" lng="28.808067" ] </code>
 
-Pentru ca harta să arate de mai aproape folosim atributul zoom:
- Exemplu: [myMap lat="47.039897" lng="28.808067" zoom="17" ]
+<b>Pentru ca harta să arate de mai aproape folosim atributul zoom:</b>
+ Exemplu: <code>[myMap lat="47.039897" lng="28.808067" zoom="17" ] </code>
  
-Pentru ca marcatorul să fie de o altă culoare folosim atributul marker:
- Exemplu: [myMap lat="47.039897" lng="28.808067" zoom="5" marker="blue"]
+<b>Pentru ca marcatorul să fie de o altă culoare folosim atributul marker:</b>
+ Exemplu: <code>[myMap lat="47.039897" lng="28.808067" zoom="5" marker="blue"] </code>
  
-Pentru alte dimensiuni a hărții folosim atributele width și height:
- Exemplu: [myMap lat="47.039897" lng="28.808067" zoom="10" marker="blue" width="50%" height="50vh" ]
+<b>Pentru alte dimensiuni a hărții folosim atributele width și height:</b>
+ Exemplu: <code>[myMap lat="47.039897" lng="28.808067" zoom="10" marker="blue" width="50%" height="50vh" ]</code>
  
 Nu are sens sa folosim: zoom="11", width="100%" , height= "300px" sau marker="#fd443d", întrucît ceste valori sunt inițiale.
   
