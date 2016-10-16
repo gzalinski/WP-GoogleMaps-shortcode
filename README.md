@@ -3,14 +3,14 @@ Add a google map that has a marker in your wordpress posts.
 
 ShortCode [myMap]
 
-Shortcode-ul are următoarele atribute:
-id - identificatorul etichetei HTML ce va afișa harta.    
-width - map width in %, px, wh .. 
-height -map height in %,px, vh .. 
-lat - latitude of marker
-lng - longitude of marker
-zoom - map zoom, valoarea inițială 
-marker - culoarea marcatorului în orice format.
+Shortcode-ul are următoarele atribute: <br>
+id - identificatorul etichetei HTML ce va afișa harta. <br>   
+width - map width in %, px, wh .. <br>
+height -map height in %,px, vh .. <br>
+lat - latitude of marker <br>
+lng - longitude of marker <br>
+zoom - map zoom, valoarea inițială <br>
+marker - culoarea marcatorului în orice format. <br>
 
 Valorile inițiale ale atributelor:
  id = map
